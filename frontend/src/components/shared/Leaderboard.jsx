@@ -54,7 +54,7 @@ const Leaderboard = ({ habits, user }) => {
       {/* Header */}
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "16px" }}>
         <div>
-          <h3 style={{ fontFamily: "Black Han Sans, sans-serif", fontSize: "16px", fontWeight: 700, color: "var(--text-primary)" }}>🏆 Leaderboard</h3>
+          <h3 style={{ fontFamily: "Cormorant Garamond, sans-serif", fontSize: "16px", fontWeight: 700, color: "var(--text-primary)" }}>🏆 Leaderboard</h3>
           <p style={{ fontSize: "12px", color: "var(--text-muted)", marginTop: "2px" }}>You are ranked #{myRank} of {allPlayers.length}</p>
         </div>
         <button onClick={() => setShowAdd(!showAdd)} style={{
@@ -73,7 +73,7 @@ const Leaderboard = ({ habits, user }) => {
         ].map((s, i) => (
           <div key={i} style={{ padding: "12px", borderRadius: "12px", background: "rgba(255,255,255,0.04)", border: `1px solid ${s.color}25`, textAlign: "center" }}>
             <div style={{ fontSize: "18px", marginBottom: "4px" }}>{s.icon}</div>
-            <div style={{ fontSize: "18px", fontWeight: 800, color: s.color, fontFamily: "Black Han Sans, sans-serif" }}>{s.value}</div>
+            <div style={{ fontSize: "18px", fontWeight: 800, color: s.color, fontFamily: "Cormorant Garamond, sans-serif" }}>{s.value}</div>
             <div style={{ fontSize: "10px", color: "var(--text-muted)" }}>{s.label}</div>
           </div>
         ))}
@@ -132,7 +132,7 @@ const Leaderboard = ({ habits, user }) => {
 
             {/* XP */}
             <div style={{ textAlign: "right", flexShrink: 0 }}>
-              <p style={{ fontSize: "14px", fontWeight: 800, color: i < 3 ? RANK_COLORS[i] : "var(--text-secondary)", fontFamily: "Black Han Sans, sans-serif" }}>⚡{player.xp}</p>
+              <p style={{ fontSize: "14px", fontWeight: 800, color: i < 3 ? RANK_COLORS[i] : "var(--text-secondary)", fontFamily: "Cormorant Garamond, sans-serif" }}>⚡{player.xp}</p>
               <p style={{ fontSize: "10px", color: "var(--text-muted)" }}>XP</p>
             </div>
           </div>

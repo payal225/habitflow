@@ -55,7 +55,7 @@ const Dashboard = () => {
       <div className="flex items-start justify-between">
         <div>
           <div className="flex items-center gap-3 mb-1">
-            <h1 className="text-2xl font-bold" style={{ fontFamily: "Black Han Sans, sans-serif", color: "var(--text-primary)" }}>
+            <h1 className="text-2xl font-bold" style={{ fontFamily: "Cormorant Garamond, sans-serif", color: "var(--text-primary)" }}>
               Good morning, {user?.name?.split(" ")[0]}!
             </h1>
             <PulseDot color="#22c55e" size={8} />
@@ -163,7 +163,7 @@ const Dashboard = () => {
       <div>
         <div className="flex items-center justify-between mb-4">
           <div className="flex items-center gap-3">
-            <h2 className="text-lg font-bold" style={{ fontFamily: "Black Han Sans, sans-serif", color: "var(--text-primary)" }}>
+            <h2 className="text-lg font-bold" style={{ fontFamily: "Cormorant Garamond, sans-serif", color: "var(--text-primary)" }}>
               Today's Habits
             </h2>
             {todayHabits.length > 0 && (

@@ -86,7 +86,7 @@ const Features = () => {
             <span style={{ width: "6px", height: "6px", borderRadius: "50%", background: "#6366f1", animation: "ping 1.5s infinite" }} />
             <span style={{ fontSize: "11px", fontWeight: 700, color: "#a78bfa", letterSpacing: "1px" }}>14 POWERFUL TOOLS</span>
           </div>
-          <h1 style={{ fontFamily: "Black Han Sans, sans-serif", fontSize: "32px", fontWeight: 800, color: "var(--text-primary)", marginBottom: "8px" }}>
+          <h1 style={{ fontFamily: "Cormorant Garamond, sans-serif", fontSize: "32px", fontWeight: 800, color: "var(--text-primary)", marginBottom: "8px" }}>
             Feature <span style={{ background: "linear-gradient(135deg,#6366f1,#8b5cf6,#ec4899)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundClip: "text" }}>Arsenal</span> ⚡
           </h1>
           <p style={{ fontSize: "14px", color: "var(--text-muted)" }}>Click any tool to open it. Your complete wellness toolkit.</p>
@@ -110,7 +110,7 @@ const Features = () => {
             >← Back</button>
             <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
               <span style={{ fontSize: "20px" }}>{FEATURE_CARDS.find(f => f.id === activeTab)?.icon}</span>
-              <span style={{ fontFamily: "Black Han Sans, sans-serif", fontSize: "18px", fontWeight: 700, color: "var(--text-primary)" }}>
+              <span style={{ fontFamily: "Cormorant Garamond, sans-serif", fontSize: "18px", fontWeight: 700, color: "var(--text-primary)" }}>
                 {FEATURE_CARDS.find(f => f.id === activeTab)?.label}
               </span>
             </div>
@@ -151,7 +151,7 @@ const Features = () => {
                 transition: "all 0.3s",
                 transform: hoveredCard === feature.id ? "scale(1.1) rotate(-5deg)" : "scale(1) rotate(0deg)",
               }}>{feature.icon}</div>
-              <h3 style={{ fontFamily: "Black Han Sans, sans-serif", fontSize: "15px", fontWeight: 700, color: hoveredCard === feature.id ? "var(--text-primary)" : "var(--text-secondary)", marginBottom: "6px", transition: "color 0.3s" }}>{feature.label}</h3>
+              <h3 style={{ fontFamily: "Cormorant Garamond, sans-serif", fontSize: "15px", fontWeight: 700, color: hoveredCard === feature.id ? "var(--text-primary)" : "var(--text-secondary)", marginBottom: "6px", transition: "color 0.3s" }}>{feature.label}</h3>
               <p style={{ fontSize: "12px", color: "var(--text-muted)", lineHeight: 1.5, marginBottom: "14px" }}>{feature.desc}</p>
               <div style={{ display: "flex", alignItems: "center", gap: "4px", fontSize: "12px", fontWeight: 600, color: hoveredCard === feature.id ? feature.color : "var(--text-muted)", transition: "all 0.3s" }}>
                 <span>Open</span>

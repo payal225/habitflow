@@ -103,7 +103,7 @@ const Layout = ({ children }) => {
             boxShadow: "0 0 20px rgba(34,197,94,0.3)",
           }}>🌱</div>
           <div>
-            <div style={{ fontFamily: "Black Han Sans, sans-serif", fontSize: "18px", fontWeight: 800, color: "var(--text-primary)" }}>HabitFlow</div>
+            <div style={{ fontFamily: "Cormorant Garamond, sans-serif", fontSize: "18px", fontWeight: 800, color: "var(--text-primary)" }}>HabitFlow</div>
             <div style={{ fontSize: "10px", color: "var(--text-muted)", fontWeight: 600, letterSpacing: "1px" }}>TRACK · GROW · WIN</div>
           </div>
         </div>
@@ -201,7 +201,7 @@ const Layout = ({ children }) => {
       }} className="md:hidden">
         <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
           <div style={{ width: "32px", height: "32px", borderRadius: "10px", background: "linear-gradient(135deg, #22c55e, #4ade80)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "16px" }}>🌱</div>
-          <span style={{ fontFamily: "Black Han Sans, sans-serif", fontSize: "16px", fontWeight: 800, color: "var(--text-primary)" }}>HabitFlow</span>
+          <span style={{ fontFamily: "Cormorant Garamond, sans-serif", fontSize: "16px", fontWeight: 800, color: "var(--text-primary)" }}>HabitFlow</span>
         </div>
         <button onClick={() => setMenuOpen(!menuOpen)} style={{
           width: "36px", height: "36px", borderRadius: "10px",

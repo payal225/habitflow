@@ -75,7 +75,7 @@ const StudyTimer = () => {
     <div style={{ background: "var(--bg-card)", border: "1px solid rgba(255,255,255,0.06)", borderRadius: "20px", padding: "20px" }}>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "18px" }}>
         <div>
-          <h3 style={{ fontFamily: "Black Han Sans, sans-serif", fontSize: "16px", fontWeight: 700, color: "var(--text-primary)" }}>📖 Study Timer</h3>
+          <h3 style={{ fontFamily: "Cormorant Garamond, sans-serif", fontSize: "16px", fontWeight: 700, color: "var(--text-primary)" }}>📖 Study Timer</h3>
           <p style={{ fontSize: "12px", color: "var(--text-muted)", marginTop: "2px" }}>Track your study sessions</p>
         </div>
         <div style={{ textAlign: "right" }}>

@@ -53,7 +53,7 @@ const MoodTracker = () => {
 
   return (
     <div className="card">
-      <h3 className="font-bold mb-4" style={{ fontFamily: "Black Han Sans, sans-serif", color: "var(--text-primary)" }}>
+      <h3 className="font-bold mb-4" style={{ fontFamily: "Cormorant Garamond, sans-serif", color: "var(--text-primary)" }}>
         How are you feeling? 🌈
       </h3>
 

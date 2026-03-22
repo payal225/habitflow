@@ -154,12 +154,12 @@ const MiniGames = ({ habits }) => {
       {/* Header */}
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "16px" }}>
         <div>
-          <h3 style={{ fontFamily: "Black Han Sans, sans-serif", fontSize: "16px", fontWeight: 700, color: "var(--text-primary)" }}>🎮 Mini Games</h3>
+          <h3 style={{ fontFamily: "Cormorant Garamond, sans-serif", fontSize: "16px", fontWeight: 700, color: "var(--text-primary)" }}>🎮 Mini Games</h3>
           <p style={{ fontSize: "12px", color: "var(--text-muted)", marginTop: "2px" }}>Earn coins by playing games!</p>
         </div>
         <div style={{ display: "flex", alignItems: "center", gap: "6px", padding: "8px 16px", borderRadius: "100px", background: "rgba(245,158,11,0.15)", border: "1px solid rgba(245,158,11,0.3)" }}>
           <span style={{ fontSize: "18px" }}>🪙</span>
-          <span style={{ fontSize: "18px", fontWeight: 800, color: "#fbbf24", fontFamily: "Black Han Sans, sans-serif" }}>{coins}</span>
+          <span style={{ fontSize: "18px", fontWeight: 800, color: "#fbbf24", fontFamily: "Cormorant Garamond, sans-serif" }}>{coins}</span>
         </div>
       </div>
 
@@ -226,7 +226,7 @@ const MiniGames = ({ habits }) => {
           ) : (
             <div style={{ textAlign: "center", padding: "20px" }}>
               <div style={{ fontSize: "56px", marginBottom: "12px" }}>{quizScore === QUIZ_QUESTIONS.length ? "🏆" : quizScore >= 3 ? "🎉" : "📚"}</div>
-              <h3 style={{ fontFamily: "Black Han Sans, sans-serif", fontSize: "22px", fontWeight: 700, color: "var(--text-primary)", marginBottom: "8px" }}>
+              <h3 style={{ fontFamily: "Cormorant Garamond, sans-serif", fontSize: "22px", fontWeight: 700, color: "var(--text-primary)", marginBottom: "8px" }}>
                 {quizScore}/{QUIZ_QUESTIONS.length} Correct!
               </h3>
               <p style={{ fontSize: "14px", color: "var(--text-muted)", marginBottom: "20px" }}>You earned 🪙 {quizScore * 10} coins!</p>

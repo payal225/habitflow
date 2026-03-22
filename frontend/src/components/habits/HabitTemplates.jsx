@@ -123,7 +123,7 @@ const HabitTemplates = ({ onAdd, onClose }) => {
         }}>
           <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "16px" }}>
             <div>
-              <h2 style={{ fontFamily: "Black Han Sans, sans-serif", fontSize: "22px", fontWeight: 700, color: "var(--text-primary)" }}>
+              <h2 style={{ fontFamily: "Cormorant Garamond, sans-serif", fontSize: "22px", fontWeight: 700, color: "var(--text-primary)" }}>
                 🎯 Habit Templates
               </h2>
               <p style={{ fontSize: "13px", color: "var(--text-muted)", marginTop: "4px" }}>

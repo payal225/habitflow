@@ -13,7 +13,7 @@ const Pomodoro = () => {
 
   return (
     <div className="space-y-6 animate-fade-in">
-      <h1 className="text-2xl font-bold" style={{ fontFamily: "Black Han Sans, sans-serif", color: "var(--text-primary)" }}>
+      <h1 className="text-2xl font-bold" style={{ fontFamily: "Cormorant Garamond, sans-serif", color: "var(--text-primary)" }}>
         Focus Mode 🍅
       </h1>
 
@@ -23,7 +23,7 @@ const Pomodoro = () => {
 
       {/* Link Habit to Session */}
       <div className="card">
-        <h3 className="font-bold mb-3" style={{ fontFamily: "Black Han Sans, sans-serif", color: "var(--text-primary)" }}>
+        <h3 className="font-bold mb-3" style={{ fontFamily: "Cormorant Garamond, sans-serif", color: "var(--text-primary)" }}>
           Working on...
         </h3>
         <div className="flex flex-wrap gap-2">
@@ -60,7 +60,7 @@ const Pomodoro = () => {
 
       {/* Tips */}
       <div className="card">
-        <h3 className="font-bold mb-3" style={{ fontFamily: "Black Han Sans, sans-serif", color: "var(--text-primary)" }}>
+        <h3 className="font-bold mb-3" style={{ fontFamily: "Cormorant Garamond, sans-serif", color: "var(--text-primary)" }}>
           Pomodoro Tips 💡
         </h3>
         <div className="space-y-2">

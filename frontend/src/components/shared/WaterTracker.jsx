@@ -54,13 +54,13 @@ const WaterTracker = () => {
     }}>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "16px" }}>
         <div>
-          <h3 style={{ fontFamily: "Black Han Sans, sans-serif", fontSize: "16px", fontWeight: 700, color: "var(--text-primary)" }}>
+          <h3 style={{ fontFamily: "Cormorant Garamond, sans-serif", fontSize: "16px", fontWeight: 700, color: "var(--text-primary)" }}>
             💧 Water Intake
           </h3>
           <p style={{ fontSize: "12px", color: "var(--text-muted)", marginTop: "2px" }}>Daily goal: {GOAL} glasses</p>
         </div>
         <div style={{ textAlign: "right" }}>
-          <div style={{ fontSize: "28px", fontWeight: 800, color: getColor(), fontFamily: "Black Han Sans, sans-serif" }}>
+          <div style={{ fontSize: "28px", fontWeight: 800, color: getColor(), fontFamily: "Cormorant Garamond, sans-serif" }}>
             {glasses}<span style={{ fontSize: "14px", color: "var(--text-muted)" }}>/{GOAL}</span>
           </div>
           <div style={{ fontSize: "11px", color: getColor(), fontWeight: 600 }}>{percentage}%</div>

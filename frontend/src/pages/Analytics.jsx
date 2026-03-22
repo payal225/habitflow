@@ -40,7 +40,7 @@ const Analytics = () => {
 
   return (
     <div className="space-y-6 animate-fade-in">
-      <h1 className="text-2xl font-bold" style={{ fontFamily: "Black Han Sans, sans-serif", color: "var(--text-primary)" }}>
+      <h1 className="text-2xl font-bold" style={{ fontFamily: "Cormorant Garamond, sans-serif", color: "var(--text-primary)" }}>
         Analytics
       </h1>
 
@@ -75,7 +75,7 @@ const Analytics = () => {
           </div>
 
           <div className="card">
-            <h2 className="text-lg font-bold mb-4" style={{ fontFamily: "Black Han Sans, sans-serif", color: "var(--text-primary)" }}>
+            <h2 className="text-lg font-bold mb-4" style={{ fontFamily: "Cormorant Garamond, sans-serif", color: "var(--text-primary)" }}>
               Last 7 Days
             </h2>
             <ResponsiveContainer width="100%" height={220}>
@@ -91,7 +91,7 @@ const Analytics = () => {
           </div>
 
           <div className="card">
-            <h2 className="text-lg font-bold mb-4" style={{ fontFamily: "Black Han Sans, sans-serif", color: "var(--text-primary)" }}>
+            <h2 className="text-lg font-bold mb-4" style={{ fontFamily: "Cormorant Garamond, sans-serif", color: "var(--text-primary)" }}>
               Streak Leaderboard
             </h2>
             <div className="space-y-3">
@@ -172,7 +172,7 @@ const Analytics = () => {
       {activeTab === "export" && (
         <div className="space-y-4">
           <div className="card">
-            <h2 className="text-lg font-bold mb-2" style={{ fontFamily: "Black Han Sans, sans-serif", color: "var(--text-primary)" }}>
+            <h2 className="text-lg font-bold mb-2" style={{ fontFamily: "Cormorant Garamond, sans-serif", color: "var(--text-primary)" }}>
               Export Your Data
             </h2>
             <p className="text-sm mb-6" style={{ color: "var(--text-muted)" }}>Download your habit data in different formats</p>

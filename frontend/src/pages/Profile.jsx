@@ -55,7 +55,7 @@ const Profile = () => {
 
   return (
     <div className="space-y-6 animate-fade-in">
-      <h1 className="text-2xl font-bold" style={{ fontFamily: "Black Han Sans, sans-serif", color: "var(--text-primary)" }}>
+      <h1 className="text-2xl font-bold" style={{ fontFamily: "Cormorant Garamond, sans-serif", color: "var(--text-primary)" }}>
         Profile 👤
       </h1>
 
@@ -83,7 +83,7 @@ const Profile = () => {
 
       {/* Avatar Picker */}
       <div className="card">
-        <h3 className="font-bold mb-4" style={{ fontFamily: "Black Han Sans, sans-serif", color: "var(--text-primary)" }}>
+        <h3 className="font-bold mb-4" style={{ fontFamily: "Cormorant Garamond, sans-serif", color: "var(--text-primary)" }}>
           Choose Avatar
         </h3>
         <div className="flex flex-wrap gap-3">
@@ -102,7 +102,7 @@ const Profile = () => {
 
       {/* Preferences */}
       <div className="card">
-        <h3 className="font-bold mb-4" style={{ fontFamily: "Black Han Sans, sans-serif", color: "var(--text-primary)" }}>
+        <h3 className="font-bold mb-4" style={{ fontFamily: "Cormorant Garamond, sans-serif", color: "var(--text-primary)" }}>
           Preferences
         </h3>
         <div className="space-y-4">
@@ -136,7 +136,7 @@ const Profile = () => {
 
       {/* Achievements */}
       <div className="card">
-        <h3 className="font-bold mb-4" style={{ fontFamily: "Black Han Sans, sans-serif", color: "var(--text-primary)" }}>
+        <h3 className="font-bold mb-4" style={{ fontFamily: "Cormorant Garamond, sans-serif", color: "var(--text-primary)" }}>
           Achievements 🏆
         </h3>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3">

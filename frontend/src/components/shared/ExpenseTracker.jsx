@@ -74,7 +74,7 @@ const ExpenseTracker = () => {
       {/* Header */}
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "16px" }}>
         <div>
-          <h3 style={{ fontFamily: "Black Han Sans, sans-serif", fontSize: "16px", fontWeight: 700, color: "var(--text-primary)" }}>💸 Expense Tracker</h3>
+          <h3 style={{ fontFamily: "Cormorant Garamond, sans-serif", fontSize: "16px", fontWeight: 700, color: "var(--text-primary)" }}>💸 Expense Tracker</h3>
           <p style={{ fontSize: "12px", color: "var(--text-muted)", marginTop: "2px" }}>Track your spending habits</p>
         </div>
         <button onClick={() => setShowForm(!showForm)} style={{
@@ -101,11 +101,11 @@ const ExpenseTracker = () => {
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "10px", marginBottom: "16px" }}>
         <div style={{ padding: "14px", borderRadius: "14px", background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.06)", textAlign: "center" }}>
           <p style={{ fontSize: "10px", color: "var(--text-muted)", fontWeight: 700, letterSpacing: "1px", marginBottom: "4px" }}>SPENT</p>
-          <p style={{ fontSize: "24px", fontWeight: 800, color: "#ef4444", fontFamily: "Black Han Sans, sans-serif" }}>₹{total.toFixed(0)}</p>
+          <p style={{ fontSize: "24px", fontWeight: 800, color: "#ef4444", fontFamily: "Cormorant Garamond, sans-serif" }}>₹{total.toFixed(0)}</p>
         </div>
         <div style={{ padding: "14px", borderRadius: "14px", background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.06)", textAlign: "center" }}>
           <p style={{ fontSize: "10px", color: "var(--text-muted)", fontWeight: 700, letterSpacing: "1px", marginBottom: "4px" }}>BUDGET LEFT</p>
-          <p style={{ fontSize: "24px", fontWeight: 800, color: budgetNum > 0 ? budgetColor : "var(--text-muted)", fontFamily: "Black Han Sans, sans-serif" }}>
+          <p style={{ fontSize: "24px", fontWeight: 800, color: budgetNum > 0 ? budgetColor : "var(--text-muted)", fontFamily: "Cormorant Garamond, sans-serif" }}>
             {budgetNum > 0 ? `₹${Math.max(budgetNum - total, 0).toFixed(0)}` : "—"}
           </p>
         </div>

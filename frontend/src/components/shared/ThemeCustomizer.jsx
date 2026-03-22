@@ -117,7 +117,7 @@ const ThemeCustomizer = ({ onClose }) => {
         <div style={{ padding: "24px", borderBottom: "1px solid rgba(255,255,255,0.06)", background: "linear-gradient(135deg, rgba(99,102,241,0.1), rgba(236,72,153,0.05))" }}>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
             <div>
-              <h2 style={{ fontFamily: "Black Han Sans, sans-serif", fontSize: "20px", fontWeight: 700, color: "var(--text-primary)" }}>🎨 Theme Customizer</h2>
+              <h2 style={{ fontFamily: "Cormorant Garamond, sans-serif", fontSize: "20px", fontWeight: 700, color: "var(--text-primary)" }}>🎨 Theme Customizer</h2>
               <p style={{ fontSize: "12px", color: "var(--text-muted)", marginTop: "4px" }}>Personalize your HabitFlow experience</p>
             </div>
             <button onClick={onClose} style={{ width: "32px", height: "32px", borderRadius: "10px", background: "rgba(255,255,255,0.08)", border: "1px solid rgba(255,255,255,0.1)", color: "var(--text-primary)", fontSize: "16px", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center" }}>✕</button>

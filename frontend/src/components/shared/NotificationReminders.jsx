@@ -90,7 +90,7 @@ const NotificationReminders = ({ habits }) => {
       {/* Header */}
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "16px" }}>
         <div>
-          <h3 style={{ fontFamily: "Black Han Sans, sans-serif", fontSize: "16px", fontWeight: 700, color: "var(--text-primary)" }}>🔔 Reminders</h3>
+          <h3 style={{ fontFamily: "Cormorant Garamond, sans-serif", fontSize: "16px", fontWeight: 700, color: "var(--text-primary)" }}>🔔 Reminders</h3>
           <p style={{ fontSize: "12px", color: "var(--text-muted)", marginTop: "2px" }}>{reminders.filter(r => r.enabled).length} active reminders</p>
         </div>
         <button onClick={() => setShowAdd(true)} style={{
@@ -123,7 +123,7 @@ const NotificationReminders = ({ habits }) => {
         <div style={{ position: "fixed", inset: 0, zIndex: 200, display: "flex", alignItems: "center", justifyContent: "center", padding: "20px", background: "rgba(0,0,0,0.75)", backdropFilter: "blur(10px)" }}>
           <div style={{ width: "100%", maxWidth: "460px", background: "var(--bg-card)", border: "1px solid rgba(255,255,255,0.1)", borderRadius: "24px", overflow: "hidden", animation: "scaleIn 0.3s ease" }}>
             <div style={{ padding: "20px 24px", borderBottom: "1px solid rgba(255,255,255,0.06)", display: "flex", justifyContent: "space-between", alignItems: "center", background: "linear-gradient(135deg, rgba(245,158,11,0.1), rgba(249,115,22,0.05))" }}>
-              <h3 style={{ fontFamily: "Black Han Sans, sans-serif", fontSize: "18px", fontWeight: 700, color: "var(--text-primary)" }}>🔔 New Reminder</h3>
+              <h3 style={{ fontFamily: "Cormorant Garamond, sans-serif", fontSize: "18px", fontWeight: 700, color: "var(--text-primary)" }}>🔔 New Reminder</h3>
               <button onClick={() => setShowAdd(false)} style={{ width: "30px", height: "30px", borderRadius: "8px", background: "rgba(255,255,255,0.08)", border: "none", color: "var(--text-primary)", cursor: "pointer" }}>✕</button>
             </div>
             <div style={{ padding: "20px" }}>

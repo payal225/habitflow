@@ -72,13 +72,13 @@ const SleepTracker = () => {
     }}>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "18px" }}>
         <div>
-          <h3 style={{ fontFamily: "Black Han Sans, sans-serif", fontSize: "16px", fontWeight: 700, color: "var(--text-primary)" }}>
+          <h3 style={{ fontFamily: "Cormorant Garamond, sans-serif", fontSize: "16px", fontWeight: 700, color: "var(--text-primary)" }}>
             🌙 Sleep Tracker
           </h3>
           <p style={{ fontSize: "12px", color: "var(--text-muted)", marginTop: "2px" }}>Track your sleep quality</p>
         </div>
         <div style={{ textAlign: "right" }}>
-          <div style={{ fontSize: "24px", fontWeight: 800, color: getSleepColor(), fontFamily: "Black Han Sans, sans-serif" }}>
+          <div style={{ fontSize: "24px", fontWeight: 800, color: getSleepColor(), fontFamily: "Cormorant Garamond, sans-serif" }}>
             {dur.hours}h {dur.mins}m
           </div>
           <div style={{ fontSize: "11px", color: "var(--text-muted)" }}>tonight</div>
