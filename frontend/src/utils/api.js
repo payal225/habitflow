@@ -1,9 +1,8 @@
 import axios from "axios";
 
-// Use your laptop's IP so mobile can connect
-const BASE_URL = window.location.hostname === "localhost" 
+const BASE_URL = window.location.hostname === "localhost"
   ? "http://localhost:5000/api"
-  : `http://${window.location.hostname}:5000/api`;
+  : "https://habitflow-production-b60d.up.railway.app/api";
 
 const api = axios.create({
   baseURL: BASE_URL,
