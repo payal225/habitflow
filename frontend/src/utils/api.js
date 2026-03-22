@@ -1,8 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = window.location.hostname === "localhost"
-  ? "http://localhost:5000/api"
-  : "https://habitflow-production-b60d.up.railway.app/api";
+const BASE_URL = "https://habitflow-production-b60d.up.railway.app/api";
 
 const api = axios.create({
   baseURL: BASE_URL,
