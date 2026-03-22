@@ -105,7 +105,7 @@ const StreakCalendar = ({ habits }) => {
       {/* Header */}
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "16px" }}>
         <div>
-          <h3 style={{ fontFamily: "Syne, sans-serif", fontSize: "16px", fontWeight: 700, color: "var(--text-primary)" }}>
+          <h3 style={{ fontFamily: "Black Han Sans, sans-serif", fontSize: "16px", fontWeight: 700, color: "var(--text-primary)" }}>
             🗓️ Streak Calendar {currentYear}
           </h3>
           <p style={{ fontSize: "12px", color: "var(--text-muted)", marginTop: "2px" }}>
@@ -113,7 +113,7 @@ const StreakCalendar = ({ habits }) => {
           </p>
         </div>
         <div style={{ textAlign: "right" }}>
-          <p style={{ fontSize: "22px", fontWeight: 800, color: "#f97316", fontFamily: "Syne, sans-serif" }}>🔥 {currentStreak}</p>
+          <p style={{ fontSize: "22px", fontWeight: 800, color: "#f97316", fontFamily: "Black Han Sans, sans-serif" }}>🔥 {currentStreak}</p>
           <p style={{ fontSize: "10px", color: "var(--text-muted)" }}>current streak</p>
         </div>
       </div>
@@ -126,7 +126,7 @@ const StreakCalendar = ({ habits }) => {
           { label: "Best Streak", value: `${Math.max(...habits.map(h => h.longestStreak), 0)}d`, color: "#f59e0b" },
         ].map((s, i) => (
           <div key={i} style={{ padding: "10px", borderRadius: "12px", background: "rgba(255,255,255,0.04)", border: `1px solid ${s.color}20`, textAlign: "center" }}>
-            <div style={{ fontSize: "18px", fontWeight: 800, color: s.color, fontFamily: "Syne, sans-serif" }}>{s.value}</div>
+            <div style={{ fontSize: "18px", fontWeight: 800, color: s.color, fontFamily: "Black Han Sans, sans-serif" }}>{s.value}</div>
             <div style={{ fontSize: "10px", color: "var(--text-muted)", marginTop: "2px" }}>{s.label}</div>
           </div>
         ))}

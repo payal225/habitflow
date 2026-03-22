@@ -102,7 +102,7 @@ const HabitBuddy = ({ user, habits }) => {
       {/* Header */}
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "16px" }}>
         <div>
-          <h3 style={{ fontFamily: "Syne, sans-serif", fontSize: "16px", fontWeight: 700, color: "var(--text-primary)" }}>👥 Habit Buddy System</h3>
+          <h3 style={{ fontFamily: "Black Han Sans, sans-serif", fontSize: "16px", fontWeight: 700, color: "var(--text-primary)" }}>👥 Habit Buddy System</h3>
           <p style={{ fontSize: "12px", color: "var(--text-muted)", marginTop: "2px" }}>Find accountability partners to grow together</p>
         </div>
         <div style={{ display: "flex", alignItems: "center", gap: "6px", padding: "6px 12px", borderRadius: "100px", background: "rgba(34,197,94,0.12)", border: "1px solid rgba(34,197,94,0.25)" }}>
@@ -285,7 +285,7 @@ const HabitBuddy = ({ user, habits }) => {
         <div className="animate-slide-up">
           <div style={{ padding: "28px", borderRadius: "18px", background: "linear-gradient(135deg, rgba(99,102,241,0.1), rgba(236,72,153,0.05))", border: "1px solid rgba(99,102,241,0.2)", textAlign: "center", marginBottom: "16px" }}>
             <div style={{ fontSize: "48px", marginBottom: "14px" }}>📨</div>
-            <h3 style={{ fontFamily: "Syne, sans-serif", fontSize: "18px", fontWeight: 700, color: "var(--text-primary)", marginBottom: "8px" }}>Invite Friends</h3>
+            <h3 style={{ fontFamily: "Black Han Sans, sans-serif", fontSize: "18px", fontWeight: 700, color: "var(--text-primary)", marginBottom: "8px" }}>Invite Friends</h3>
             <p style={{ fontSize: "13px", color: "var(--text-muted)", marginBottom: "20px" }}>Share your code and earn bonus XP when friends join!</p>
             <div style={{ display: "flex", gap: "10px", alignItems: "center", justifyContent: "center", marginBottom: "16px" }}>
               <div style={{ padding: "12px 24px", borderRadius: "12px", background: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.15)" }}>

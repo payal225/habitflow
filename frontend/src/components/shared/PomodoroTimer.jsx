@@ -63,7 +63,7 @@ const PomodoroTimer = () => {
 
   return (
     <div className="card text-center">
-      <h2 className="text-lg font-bold mb-4" style={{ fontFamily: "Syne, sans-serif", color: "var(--text-primary)" }}>
+      <h2 className="text-lg font-bold mb-4" style={{ fontFamily: "Black Han Sans, sans-serif", color: "var(--text-primary)" }}>
         Pomodoro Timer 🍅
       </h2>
 

@@ -154,7 +154,7 @@ const AIHabitSuggestions = ({ onAdd, onClose }) => {
                   display: "flex", alignItems: "center", justifyContent: "center",
                   fontSize: "18px",
                 }}>🤖</div>
-                <h2 style={{ fontFamily: "Syne, sans-serif", fontSize: "20px", fontWeight: 700, color: "var(--text-primary)" }}>
+                <h2 style={{ fontFamily: "Black Han Sans, sans-serif", fontSize: "20px", fontWeight: 700, color: "var(--text-primary)" }}>
                   AI Habit Suggestions
                 </h2>
               </div>

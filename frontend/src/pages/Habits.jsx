@@ -53,7 +53,7 @@ const Habits = () => {
     <div className="space-y-6 animate-fade-in">
       {/* Header */}
       <div className="flex items-center justify-between">
-        <h1 style={{ fontFamily: "Syne, sans-serif", fontSize: "26px", fontWeight: 800, color: "var(--text-primary)" }}>
+        <h1 style={{ fontFamily: "Black Han Sans, sans-serif", fontSize: "26px", fontWeight: 800, color: "var(--text-primary)" }}>
           My Habits ✅
         </h1>
         <div style={{ display: "flex", gap: "8px" }}>
@@ -137,7 +137,7 @@ const Habits = () => {
                 flex: 1, padding: "12px", borderRadius: "14px", textAlign: "center",
                 background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.06)",
               }}>
-                <div style={{ fontSize: "22px", fontWeight: 800, color: s.color, fontFamily: "Syne, sans-serif" }}>{s.value}</div>
+                <div style={{ fontSize: "22px", fontWeight: 800, color: s.color, fontFamily: "Black Han Sans, sans-serif" }}>{s.value}</div>
                 <div style={{ fontSize: "11px", color: "var(--text-muted)", marginTop: "2px" }}>{s.label}</div>
               </div>
             ))}

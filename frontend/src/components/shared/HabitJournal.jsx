@@ -66,7 +66,7 @@ const HabitJournal = () => {
       {/* Header */}
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "16px" }}>
         <div>
-          <h3 style={{ fontFamily: "Syne, sans-serif", fontSize: "16px", fontWeight: 700, color: "var(--text-primary)" }}>📔 Habit Journal</h3>
+          <h3 style={{ fontFamily: "Black Han Sans, sans-serif", fontSize: "16px", fontWeight: 700, color: "var(--text-primary)" }}>📔 Habit Journal</h3>
           <p style={{ fontSize: "12px", color: "var(--text-muted)", marginTop: "2px" }}>{entries.length} entries • {totalWords} words written</p>
         </div>
         <button onClick={() => setShowAdd(true)} style={{
@@ -85,7 +85,7 @@ const HabitJournal = () => {
           { label: "Words", value: totalWords, color: "#8b5cf6" },
         ].map((s, i) => (
           <div key={i} style={{ padding: "12px", borderRadius: "12px", background: "rgba(255,255,255,0.04)", border: `1px solid ${s.color}20`, textAlign: "center" }}>
-            <div style={{ fontSize: "20px", fontWeight: 800, color: s.color, fontFamily: "Syne, sans-serif" }}>{s.value}</div>
+            <div style={{ fontSize: "20px", fontWeight: 800, color: s.color, fontFamily: "Black Han Sans, sans-serif" }}>{s.value}</div>
             <div style={{ fontSize: "10px", color: "var(--text-muted)", marginTop: "2px" }}>{s.label}</div>
           </div>
         ))}
@@ -103,7 +103,7 @@ const HabitJournal = () => {
         <div style={{ position: "fixed", inset: 0, zIndex: 200, display: "flex", alignItems: "center", justifyContent: "center", padding: "20px", background: "rgba(0,0,0,0.75)", backdropFilter: "blur(10px)" }}>
           <div style={{ width: "100%", maxWidth: "600px", maxHeight: "90vh", background: "var(--bg-card)", border: "1px solid rgba(255,255,255,0.1)", borderRadius: "24px", overflow: "hidden", display: "flex", flexDirection: "column", animation: "scaleIn 0.3s ease" }}>
             <div style={{ padding: "20px 24px", borderBottom: "1px solid rgba(255,255,255,0.06)", display: "flex", justifyContent: "space-between", alignItems: "center", background: "linear-gradient(135deg, rgba(236,72,153,0.1), rgba(139,92,246,0.05))" }}>
-              <h3 style={{ fontFamily: "Syne, sans-serif", fontSize: "18px", fontWeight: 700, color: "var(--text-primary)" }}>📔 Journal Entry</h3>
+              <h3 style={{ fontFamily: "Black Han Sans, sans-serif", fontSize: "18px", fontWeight: 700, color: "var(--text-primary)" }}>📔 Journal Entry</h3>
               <button onClick={() => setShowAdd(false)} style={{ width: "30px", height: "30px", borderRadius: "8px", background: "rgba(255,255,255,0.08)", border: "none", color: "var(--text-primary)", cursor: "pointer" }}>✕</button>
             </div>
 
@@ -189,7 +189,7 @@ const HabitJournal = () => {
             <div style={{ padding: "20px 24px", borderBottom: "1px solid rgba(255,255,255,0.06)", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
               <div>
                 <p style={{ fontSize: "13px", color: "var(--text-muted)" }}>{viewEntry.date}</p>
-                <h3 style={{ fontFamily: "Syne, sans-serif", fontSize: "18px", fontWeight: 700, color: "var(--text-primary)" }}>{viewEntry.title || "Journal Entry"}</h3>
+                <h3 style={{ fontFamily: "Black Han Sans, sans-serif", fontSize: "18px", fontWeight: 700, color: "var(--text-primary)" }}>{viewEntry.title || "Journal Entry"}</h3>
               </div>
               <div style={{ display: "flex", gap: "8px" }}>
                 <button onClick={() => handleDelete(viewEntry.id)} style={{ padding: "7px 12px", borderRadius: "10px", background: "rgba(239,68,68,0.1)", border: "none", color: "#f87171", cursor: "pointer", fontSize: "12px", fontWeight: 600 }}>🗑️ Delete</button>

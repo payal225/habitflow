@@ -54,7 +54,7 @@ const HabitCalendar = ({ habit }) => {
       <div className="flex items-center justify-between mb-4">
         <div className="flex items-center gap-2">
           <span className="text-xl">{habit.icon}</span>
-          <h3 className="font-bold" style={{ fontFamily: "Syne, sans-serif", color: "var(--text-primary)" }}>
+          <h3 className="font-bold" style={{ fontFamily: "Black Han Sans, sans-serif", color: "var(--text-primary)" }}>
             {habit.name}
           </h3>
         </div>

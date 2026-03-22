@@ -48,12 +48,12 @@ const WeightTracker = () => {
     <div style={{ background: "var(--bg-card)", border: "1px solid rgba(255,255,255,0.06)", borderRadius: "20px", padding: "20px" }}>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "18px" }}>
         <div>
-          <h3 style={{ fontFamily: "Syne, sans-serif", fontSize: "16px", fontWeight: 700, color: "var(--text-primary)" }}>⚖️ Weight Tracker</h3>
+          <h3 style={{ fontFamily: "Black Han Sans, sans-serif", fontSize: "16px", fontWeight: 700, color: "var(--text-primary)" }}>⚖️ Weight Tracker</h3>
           <p style={{ fontSize: "12px", color: "var(--text-muted)", marginTop: "2px" }}>Track your fitness progress</p>
         </div>
         {latest && (
           <div style={{ textAlign: "right" }}>
-            <div style={{ fontSize: "26px", fontWeight: 800, color: "#f97316", fontFamily: "Syne, sans-serif" }}>{latest.weight} <span style={{ fontSize: "14px" }}>{unit}</span></div>
+            <div style={{ fontSize: "26px", fontWeight: 800, color: "#f97316", fontFamily: "Black Han Sans, sans-serif" }}>{latest.weight} <span style={{ fontSize: "14px" }}>{unit}</span></div>
             {change && <div style={{ fontSize: "11px", color: parseFloat(change) < 0 ? "#22c55e" : "#ef4444", fontWeight: 600 }}>{parseFloat(change) > 0 ? "+" : ""}{change} {unit}</div>}
           </div>
         )}

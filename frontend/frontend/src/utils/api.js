@@ -1,0 +1,1 @@
+const BASE_URL = "https://YOUR-RAILWAY-URL.railway.app/api";

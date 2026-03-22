@@ -67,7 +67,7 @@ const Home = () => {
             display: "flex", alignItems: "center", justifyContent: "center",
             fontSize: "18px", boxShadow: "0 0 15px rgba(34,197,94,0.3)",
           }}>🌱</div>
-          <span style={{ fontFamily: "Syne, sans-serif", fontSize: "20px", fontWeight: 800, color: "white" }}>HabitFlow</span>
+          <span style={{ fontFamily: "Black Han Sans, sans-serif", fontSize: "20px", fontWeight: 800, color: "white" }}>HabitFlow</span>
         </div>
         <div style={{ display: "flex", gap: "12px", alignItems: "center" }}>
           <Link to="/login" style={{
@@ -114,7 +114,7 @@ const Home = () => {
 
           {/* Headline */}
           <h1 style={{
-            fontFamily: "Syne, sans-serif", fontWeight: 800, lineHeight: 1.05,
+            fontFamily: "Black Han Sans, sans-serif", fontWeight: 800, lineHeight: 1.05,
             marginBottom: "24px", animation: "slideUp 0.6s ease 0.1s both",
           }}>
             <span style={{ fontSize: "clamp(48px, 8vw, 88px)", color: "white", display: "block" }}>Build Habits.</span>
@@ -164,7 +164,7 @@ const Home = () => {
               <div key={i} style={{ textAlign: "center" }}>
                 <div style={{ fontSize: "32px", marginBottom: "4px" }}>{stat.icon}</div>
                 <div style={{
-                  fontFamily: "Syne, sans-serif", fontSize: "28px", fontWeight: 800,
+                  fontFamily: "Black Han Sans, sans-serif", fontSize: "28px", fontWeight: 800,
                   background: "linear-gradient(135deg, #22c55e, #4ade80)",
                   WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundClip: "text",
                 }}>{stat.value}</div>
@@ -181,7 +181,7 @@ const Home = () => {
           <div style={{ display: "inline-flex", alignItems: "center", gap: "8px", padding: "6px 16px", borderRadius: "100px", background: "rgba(99,102,241,0.1)", border: "1px solid rgba(99,102,241,0.25)", marginBottom: "16px" }}>
             <span style={{ fontSize: "12px", fontWeight: 700, color: "#a78bfa", letterSpacing: "1px" }}>✨ FEATURES</span>
           </div>
-          <h2 style={{ fontFamily: "Syne, sans-serif", fontSize: "clamp(32px, 5vw, 48px)", fontWeight: 800, color: "white", marginBottom: "16px" }}>
+          <h2 style={{ fontFamily: "Black Han Sans, sans-serif", fontSize: "clamp(32px, 5vw, 48px)", fontWeight: 800, color: "white", marginBottom: "16px" }}>
             Everything You Need to<br />
             <span style={{ background: "linear-gradient(135deg, #6366f1, #8b5cf6, #ec4899)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundClip: "text" }}>Build Better Habits</span>
           </h2>
@@ -208,7 +208,7 @@ const Home = () => {
                 display: "flex", alignItems: "center", justifyContent: "center",
                 fontSize: "24px", marginBottom: "14px",
               }}>{f.icon}</div>
-              <h3 style={{ fontFamily: "Syne, sans-serif", fontSize: "16px", fontWeight: 700, color: "white", marginBottom: "8px" }}>{f.title}</h3>
+              <h3 style={{ fontFamily: "Black Han Sans, sans-serif", fontSize: "16px", fontWeight: 700, color: "white", marginBottom: "8px" }}>{f.title}</h3>
               <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.45)", lineHeight: 1.6 }}>{f.desc}</p>
             </div>
           ))}
@@ -221,7 +221,7 @@ const Home = () => {
           <div style={{ display: "inline-flex", alignItems: "center", gap: "8px", padding: "6px 16px", borderRadius: "100px", background: "rgba(34,197,94,0.1)", border: "1px solid rgba(34,197,94,0.25)", marginBottom: "16px" }}>
             <span style={{ fontSize: "12px", fontWeight: 700, color: "#4ade80", letterSpacing: "1px" }}>🔄 HOW IT WORKS</span>
           </div>
-          <h2 style={{ fontFamily: "Syne, sans-serif", fontSize: "clamp(32px, 5vw, 48px)", fontWeight: 800, color: "white" }}>
+          <h2 style={{ fontFamily: "Black Han Sans, sans-serif", fontSize: "clamp(32px, 5vw, 48px)", fontWeight: 800, color: "white" }}>
             Get Started in <span style={{ background: "linear-gradient(135deg, #22c55e, #4ade80)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundClip: "text" }}>4 Simple Steps</span>
           </h2>
         </div>
@@ -248,7 +248,7 @@ const Home = () => {
                 onMouseLeave={e => { e.currentTarget.style.background = "rgba(255,255,255,0.03)"; e.currentTarget.style.borderColor = "rgba(255,255,255,0.07)"; e.currentTarget.style.transform = "translateY(0)"; }}
               >
                 <div style={{
-                  fontFamily: "Syne, sans-serif", fontSize: "48px", fontWeight: 800,
+                  fontFamily: "Black Han Sans, sans-serif", fontSize: "48px", fontWeight: 800,
                   color: `${step.color}30`, marginBottom: "8px", lineHeight: 1,
                 }}>{step.step}</div>
                 <div style={{
@@ -257,7 +257,7 @@ const Home = () => {
                   display: "flex", alignItems: "center", justifyContent: "center",
                   fontSize: "26px", margin: "0 auto 16px",
                 }}>{step.icon}</div>
-                <h3 style={{ fontFamily: "Syne, sans-serif", fontSize: "17px", fontWeight: 700, color: "white", marginBottom: "8px" }}>{step.title}</h3>
+                <h3 style={{ fontFamily: "Black Han Sans, sans-serif", fontSize: "17px", fontWeight: 700, color: "white", marginBottom: "8px" }}>{step.title}</h3>
                 <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.45)", lineHeight: 1.6 }}>{step.desc}</p>
               </div>
             </div>
@@ -271,7 +271,7 @@ const Home = () => {
           <div style={{ display: "inline-flex", alignItems: "center", gap: "8px", padding: "6px 16px", borderRadius: "100px", background: "rgba(236,72,153,0.1)", border: "1px solid rgba(236,72,153,0.25)", marginBottom: "16px" }}>
             <span style={{ fontSize: "12px", fontWeight: 700, color: "#f472b6", letterSpacing: "1px" }}>💬 TESTIMONIALS</span>
           </div>
-          <h2 style={{ fontFamily: "Syne, sans-serif", fontSize: "clamp(32px, 5vw, 48px)", fontWeight: 800, color: "white" }}>
+          <h2 style={{ fontFamily: "Black Han Sans, sans-serif", fontSize: "clamp(32px, 5vw, 48px)", fontWeight: 800, color: "white" }}>
             Loved by <span style={{ background: "linear-gradient(135deg, #ec4899, #f472b6)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundClip: "text" }}>Users</span>
           </h2>
         </div>
@@ -319,7 +319,7 @@ const Home = () => {
 
           <div style={{ position: "relative", zIndex: 1 }}>
             <div style={{ fontSize: "56px", marginBottom: "20px", animation: "float 3s ease-in-out infinite" }}>🌱</div>
-            <h2 style={{ fontFamily: "Syne, sans-serif", fontSize: "clamp(28px, 4vw, 42px)", fontWeight: 800, color: "white", marginBottom: "16px" }}>
+            <h2 style={{ fontFamily: "Black Han Sans, sans-serif", fontSize: "clamp(28px, 4vw, 42px)", fontWeight: 800, color: "white", marginBottom: "16px" }}>
               Ready to Transform<br />Your Life?
             </h2>
             <p style={{ fontSize: "16px", color: "rgba(255,255,255,0.5)", marginBottom: "36px", maxWidth: "400px", margin: "0 auto 36px" }}>
@@ -350,7 +350,7 @@ const Home = () => {
       <footer style={{ padding: "40px 32px", borderTop: "1px solid rgba(255,255,255,0.06)", textAlign: "center" }}>
         <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "10px", marginBottom: "16px" }}>
           <div style={{ width: "32px", height: "32px", borderRadius: "10px", background: "linear-gradient(135deg, #22c55e, #4ade80)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "16px" }}>🌱</div>
-          <span style={{ fontFamily: "Syne, sans-serif", fontSize: "18px", fontWeight: 800, color: "white" }}>HabitFlow</span>
+          <span style={{ fontFamily: "Black Han Sans, sans-serif", fontSize: "18px", fontWeight: 800, color: "white" }}>HabitFlow</span>
         </div>
         <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.3)", marginBottom: "8px" }}>
           Built with ❤️ 

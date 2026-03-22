@@ -79,7 +79,7 @@ const DailyChallenge = () => {
               style={{ background: `${color}20`, color }}>
               DAILY CHALLENGE
             </span>
-            <h3 className="text-lg font-bold mt-2" style={{ fontFamily: "Syne, sans-serif", color: "var(--text-primary)" }}>
+            <h3 className="text-lg font-bold mt-2" style={{ fontFamily: "Black Han Sans, sans-serif", color: "var(--text-primary)" }}>
               {challenge.icon} {challenge.title}
             </h3>
           </div>

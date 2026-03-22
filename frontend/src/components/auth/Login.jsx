@@ -60,7 +60,7 @@ const Login = () => {
             animation: "glowPulse 2s ease-in-out infinite",
           }}>🌱</div>
           <h1 style={{
-            fontFamily: "Syne, sans-serif", fontSize: "36px", fontWeight: 800,
+            fontFamily: "Black Han Sans, sans-serif", fontSize: "36px", fontWeight: 800,
             background: "linear-gradient(135deg, #22c55e, #4ade80, #86efac)",
             WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundClip: "text",
             marginBottom: "8px",

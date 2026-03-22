@@ -51,7 +51,7 @@ const VisionBoard = () => {
       {/* Header */}
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "16px" }}>
         <div>
-          <h3 style={{ fontFamily: "Syne, sans-serif", fontSize: "16px", fontWeight: 700, color: "var(--text-primary)" }}>🌟 Vision Board</h3>
+          <h3 style={{ fontFamily: "Black Han Sans, sans-serif", fontSize: "16px", fontWeight: 700, color: "var(--text-primary)" }}>🌟 Vision Board</h3>
           <p style={{ fontSize: "12px", color: "var(--text-muted)", marginTop: "2px" }}>{achievedCount}/{goals.length} goals achieved</p>
         </div>
         <button onClick={() => setShowAdd(!showAdd)} style={{

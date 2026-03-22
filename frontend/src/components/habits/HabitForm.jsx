@@ -52,7 +52,7 @@ const HabitForm = ({ habit, onSave, onClose }) => {
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4" style={{ background: "rgba(0,0,0,0.5)" }}>
       <div className="w-full max-w-lg rounded-2xl p-6 animate-scale-in max-h-[90vh] overflow-y-auto" style={{ background: "var(--bg-card)" }}>
         <div className="flex items-center justify-between mb-6">
-          <h2 className="text-xl font-bold" style={{ fontFamily: "Syne, sans-serif", color: "var(--text-primary)" }}>
+          <h2 className="text-xl font-bold" style={{ fontFamily: "Black Han Sans, sans-serif", color: "var(--text-primary)" }}>
             {isEditing ? "Edit Habit" : "New Habit"}
           </h2>
           <button onClick={onClose} className="text-2xl hover:opacity-70" style={{ color: "var(--text-muted)" }}>×</button>

@@ -72,7 +72,7 @@ ${shareUrl}`;
           borderBottom: "1px solid rgba(255,255,255,0.06)",
         }}>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-            <h2 style={{ fontFamily: "Syne, sans-serif", fontSize: "20px", fontWeight: 700, color: "var(--text-primary)" }}>
+            <h2 style={{ fontFamily: "Black Han Sans, sans-serif", fontSize: "20px", fontWeight: 700, color: "var(--text-primary)" }}>
               Share Habit 🔗
             </h2>
             <button onClick={onClose} style={{

@@ -60,7 +60,7 @@ const HabitHeatmap = ({ habits }) => {
   return (
     <div className="card">
       <div className="flex items-center justify-between mb-4">
-        <h2 className="text-lg font-bold" style={{ fontFamily: "Syne, sans-serif", color: "var(--text-primary)" }}>
+        <h2 className="text-lg font-bold" style={{ fontFamily: "Black Han Sans, sans-serif", color: "var(--text-primary)" }}>
           Year Activity 🗓️
         </h2>
         <div className="flex items-center gap-3 text-xs" style={{ color: "var(--text-muted)" }}>
